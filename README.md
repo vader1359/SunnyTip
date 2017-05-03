@@ -1,4 +1,4 @@
-# Pre-work - *Pitnus Calc*
+# Pre-work - *SunnyTip*
 
 **Pitnus Calc** is a tip calculator application for iOS.
 
