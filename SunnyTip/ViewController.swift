@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         let tipAmount = Double(tipTf.text!) ?? 0
         let tipRate = calculateTipRateFrom(tipAmount: tipAmount, bill: bill)
         
+        // Cannot add % after String???
         tipRateLabel.text = String(tipRate)
         
     }
