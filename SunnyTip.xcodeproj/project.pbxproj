@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B59883401EB99FEA00DC30FD /* CurrencyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B598833F1EB99FEA00DC30FD /* CurrencyEnum.swift */; };
+		B522F6041ED145AA00E785C7 /* EnumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B522F6031ED145AA00E785C7 /* EnumManager.swift */; };
+		B5A726CF1ED699BD009AE469 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A726CE1ED699BD009AE469 /* Calculator.swift */; };
 		B5C703B91EB6FC9F00F564CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C703B81EB6FC9F00F564CE /* AppDelegate.swift */; };
 		B5C703BB1EB6FC9F00F564CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C703BA1EB6FC9F00F564CE /* ViewController.swift */; };
 		B5C703BE1EB6FC9F00F564CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C703BC1EB6FC9F00F564CE /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		B5C703C31EB6FC9F00F564CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C703C11EB6FC9F00F564CE /* LaunchScreen.storyboard */; };
 		B5C703CE1EB6FC9F00F564CE /* SunnyTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C703CD1EB6FC9F00F564CE /* SunnyTipTests.swift */; };
 		B5C703D91EB6FC9F00F564CE /* SunnyTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C703D81EB6FC9F00F564CE /* SunnyTipUITests.swift */; };
-		B5C703E71EB7310000F564CE /* ThemeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C703E61EB7310000F564CE /* ThemeEnum.swift */; };
 		B5C703E91EB7393200F564CE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C703E81EB7393200F564CE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B598833F1EB99FEA00DC30FD /* CurrencyEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyEnum.swift; sourceTree = "<group>"; };
+		B522F6031ED145AA00E785C7 /* EnumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumManager.swift; sourceTree = "<group>"; };
+		B5A726CE1ED699BD009AE469 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		B5C703B51EB6FC9F00F564CE /* SunnyTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C703B81EB6FC9F00F564CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C703BA1EB6FC9F00F564CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		B5C703D41EB6FC9F00F564CE /* SunnyTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C703D81EB6FC9F00F564CE /* SunnyTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyTipUITests.swift; sourceTree = "<group>"; };
 		B5C703DA1EB6FC9F00F564CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5C703E61EB7310000F564CE /* ThemeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeEnum.swift; path = SunnyTip/ThemeEnum.swift; sourceTree = "<group>"; };
 		B5C703E81EB7393200F564CE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B5C703EA1EB7506300F564CE /* TODO.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TODO.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,8 @@
 		B5C703AC1EB6FC9F00F564CE = {
 			isa = PBXGroup;
 			children = (
-				B598833F1EB99FEA00DC30FD /* CurrencyEnum.swift */,
+				B522F6031ED145AA00E785C7 /* EnumManager.swift */,
 				B5C703EA1EB7506300F564CE /* TODO.playground */,
-				B5C703E61EB7310000F564CE /* ThemeEnum.swift */,
 				B5C703B71EB6FC9F00F564CE /* SunnyTip */,
 				B5C703CC1EB6FC9F00F564CE /* SunnyTipTests */,
 				B5C703D71EB6FC9F00F564CE /* SunnyTipUITests */,
@@ -110,6 +109,7 @@
 				B5C703B81EB6FC9F00F564CE /* AppDelegate.swift */,
 				B5C703BA1EB6FC9F00F564CE /* ViewController.swift */,
 				B5C703BC1EB6FC9F00F564CE /* Main.storyboard */,
+				B5A726CE1ED699BD009AE469 /* Calculator.swift */,
 				B5C703E81EB7393200F564CE /* SettingsViewController.swift */,
 				B5C703BF1EB6FC9F00F564CE /* Assets.xcassets */,
 				B5C703C11EB6FC9F00F564CE /* LaunchScreen.storyboard */,
@@ -274,9 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C703BB1EB6FC9F00F564CE /* ViewController.swift in Sources */,
-				B59883401EB99FEA00DC30FD /* CurrencyEnum.swift in Sources */,
+				B522F6041ED145AA00E785C7 /* EnumManager.swift in Sources */,
 				B5C703B91EB6FC9F00F564CE /* AppDelegate.swift in Sources */,
-				B5C703E71EB7310000F564CE /* ThemeEnum.swift in Sources */,
+				B5A726CF1ED699BD009AE469 /* Calculator.swift in Sources */,
 				B5C703E91EB7393200F564CE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
